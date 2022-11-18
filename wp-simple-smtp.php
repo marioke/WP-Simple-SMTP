@@ -9,7 +9,7 @@
  * Domain Path: /languages
  * Requires at least: 6.0
  * Requires PHP: 8.0
- * Repository: https://github.com/marioke/wp-simple-smtp
+ * Repository: https://github.com/marioke/WP-Simple-SMTP
  */
 
 if (!defined('ABSPATH')) {
