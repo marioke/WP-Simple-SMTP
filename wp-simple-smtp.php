@@ -12,12 +12,6 @@
  * Repository: https://github.com/marioke/wp-simple-smtp
  */
 
-// TODOS
-// adding log with information of failed deliveries with option to resend each item
-// use class loader and refactor logic to classes
-// custom reply-to address
-// admin notice for invalid configuration use case
-
 if (!defined('ABSPATH')) {
     exit; // exit if accessed directly
 }
