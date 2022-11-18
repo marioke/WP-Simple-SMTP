@@ -43,8 +43,7 @@ add_action('admin_menu', static function () {
         'wp-simple-smtp',
         static function () {
             require_once 'options-wrapper.php';
-        }
-        ,
+        },
         3
     );
 });
