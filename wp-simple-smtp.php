@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Simple SMTP
- * Description: Adding option for mail delivery via SMTP
+ * Description: 📪 Simple plugin to extend WordPress to configure mail delivery over SMTP
  * Author: Mario Kernich
  * Version: 1.0.0
  * Author URI: https://marioke.dev
