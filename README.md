@@ -8,4 +8,6 @@ This plugin add settings to WordPress which enable mail delivery within SMTP. Th
 -   Enable or disable SMTP delivery
 -   Send test mail to verify SMTP options
 
+## Screenshot
+
 ![Screenshot](./screenshot.png)
