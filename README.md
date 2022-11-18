@@ -1,2 +1,5 @@
 # WP-Simple-SMTP
-📪 Simple plugin to extend WordPress to configure mail delivery over SMTP
+
+This plugin add settings to WordPress which enable mail delivery within smtp. The plugin is very simple, no extra overheat.
+
+![Screenshot](./screenshot.png)
