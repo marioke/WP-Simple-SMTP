@@ -11,3 +11,7 @@ This plugin add settings to WordPress which enable mail delivery within SMTP. Th
 ## Screenshot
 
 ![Screenshot](./screenshot.png)
+
+## Backlog
+
+For more details see: https://github.com/users/marioke/projects/1
