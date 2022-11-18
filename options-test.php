@@ -50,7 +50,7 @@ function wp_simple_smtp_test(string $to): void
 ?>
 
 <h3>
-    <?php _e("Send test email", "wp-simple-smtp"); ?>
+    <?php _e("Test E-Mail", "wp-simple-smtp"); ?>
 </h3>
 <p>
     <?php _e("Test deine SMTP Konfiguration durch den Versand einer Test E-Mail", "wp-simple-smtp"); ?>
