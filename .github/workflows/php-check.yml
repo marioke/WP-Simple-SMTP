@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup PHP without any shared extensions except mbstring
         uses: shivammathur/setup-php@v2
-      - run: find "${DIR_TO_SCAN}" -type f -name '*.php' ! -path './vendor/*' -print0 xargs -0 -n 1 php -l | (! grep -Ev '^No syntax errors detected in ')
+      - run: find . -type f -name '*.php' ! -path './vendor/*' -print0 xargs -0 -n 1 php -l | (! grep -Ev '^No syntax errors detected in ')
       - run: exit "${?}"
