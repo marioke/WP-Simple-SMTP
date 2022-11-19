@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  ts-check:
+  php-check:
     runs-on: ubuntu-latest
 
     steps:
