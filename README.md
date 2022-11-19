@@ -7,6 +7,7 @@ This plugin add settings to WordPress which enable mail delivery within SMTP. Th
 -   Configure SMTP options
 -   Enable or disable SMTP delivery
 -   Send test mail to verify SMTP options
+-   Available languages for english and german
 
 ## Screenshot
 
