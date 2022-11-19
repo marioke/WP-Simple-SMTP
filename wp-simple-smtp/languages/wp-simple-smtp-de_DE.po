@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Simple SMTP\n"
-"POT-Creation-Date: 2022-11-18 21:51+0100\n"
-"PO-Revision-Date: 2022-11-18 21:51+0100\n"
+"POT-Creation-Date: 2022-11-19 11:27+0100\n"
+"PO-Revision-Date: 2022-11-19 11:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -21,86 +21,125 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: wp-simple-smtp.php:24
-msgid "Mail delivery"
-msgstr "E-Mail Versand"
+#: options-smtp.php:20
+msgid "Invalid encryption selected"
+msgstr "Ungültige Verschlüsselung ausgewählt"
 
-#: wp-simple-smtp.php:46
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: wp-simple-smtp.php:73
-msgid "Invalid encryption selection"
-msgstr ""
-
-#: wp-simple-smtp.php:79
+#: options-smtp.php:26
 msgid "SMTP settings saved"
-msgstr ""
+msgstr "SMTP Einstellungen gespeichert"
 
-#: wp-simple-smtp.php:83
-msgid "Test email sent"
-msgstr ""
-
-#: wp-simple-smtp.php:105
+#: options-smtp.php:35
 msgid "Enable SMTP"
 msgstr "SMTP aktivieren"
 
-#: wp-simple-smtp.php:110
+#: options-smtp.php:43
 msgid "From Name"
 msgstr "Absender Name"
 
-#: wp-simple-smtp.php:114
+#: options-smtp.php:50
 msgid "From Address"
 msgstr "Absender Adresse"
 
-#: wp-simple-smtp.php:119
+#: options-smtp.php:58
 msgid "Host"
 msgstr "Host"
 
-#: wp-simple-smtp.php:123
+#: options-smtp.php:65
 msgid "Port"
 msgstr "Port"
 
-#: wp-simple-smtp.php:127
+#: options-smtp.php:72
 msgid "Username"
 msgstr "Benutzername"
 
-#: wp-simple-smtp.php:131
+#: options-smtp.php:79
 msgid "Password"
 msgstr "Passwort"
 
-#: wp-simple-smtp.php:135
+#: options-smtp.php:86
 msgid "Encryption"
 msgstr "Verschlüsselung"
 
-#: wp-simple-smtp.php:138
+#: options-smtp.php:91
 msgid "No Encryption"
 msgstr "Keine"
 
-#: wp-simple-smtp.php:144
+#: options-smtp.php:92
+msgid "TLS"
+msgstr "TLS"
+
+#: options-smtp.php:93
+msgid "SSL"
+msgstr "SSL"
+
+#: options-smtp.php:99
 msgid "Save Settings"
 msgstr "Einstellungen speichern"
 
-#: wp-simple-smtp.php:158
+#: options-test.php:26
+msgid "Invalid email address"
+msgstr "Fehlerhafte E-Mail Adresse"
+
+#: options-test.php:32
+msgid "Test email from WP Simple SMTP"
+msgstr "Test E-Mail gesendet von WP Simple SMTP"
+
+#: options-test.php:33
+msgid "This is a test email from WP Simple SMTP"
+msgstr "Das ist eine Test E-Mail von WP Simple SMTP"
+
+#: options-test.php:41
+msgid "Test email sent"
+msgstr "Test E-Mail gesendet"
+
+#: options-test.php:45
+msgid ""
+"Test email failed. Please ensure the given SMTP configuration is set "
+"correctly"
+msgstr ""
+"Test E-Mail fehlgeschlagen. Bitte stelle sicher, dass deine SMTP "
+"Konfiguration korrekt ist"
+
+#: options-test.php:53
+msgid "Test Mail"
+msgstr "Test E-Mail"
+
+#: options-test.php:56
+msgid "Test your SMTP configuration by sending an test mail"
+msgstr "Test deine SMTP Konfiguration durch den Versand einer Test E-Mail"
+
+#: options-test.php:62
 msgid "Email"
 msgstr "E-Mail Adresse"
 
-#: wp-simple-smtp.php:162
+#: options-test.php:68
 msgid "Send test mail"
 msgstr "Test E-Mail senden"
 
+#: wp-simple-smtp.php:37
+msgid "Mail delivery"
+msgstr "E-Mail Versand"
+
+#: wp-simple-smtp.php:80
+msgid "Settings"
+msgstr "Einstellungen"
+
 #. Plugin Name of the plugin/theme
 msgid "WP Simple SMTP"
-msgstr ""
+msgstr "WP Simple SMTP"
 
 #. Description of the plugin/theme
-msgid "Adding option for mail delivery via SMTP"
+msgid ""
+"📪 Simple plugin to extend WordPress to configure mail delivery over SMTP"
 msgstr ""
+"Einfaches Plugin zum erweitern von WordPress um eine Einstellung zum "
+"Versenden von E-Mails über SMTP"
 
 #. Author of the plugin/theme
 msgid "Mario Kernich"
-msgstr ""
+msgstr "Mario Kernich"
 
 #. Author URI of the plugin/theme
 msgid "https://marioke.dev"
-msgstr ""
+msgstr "https://marioke.dev"

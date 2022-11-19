@@ -17,7 +17,7 @@ if (isset($_POST['wp_simple_smtp_save_settings'])) {
         if (in_array($_POST[WP_SIMPLE_SMTP_ENCRYPTION], ['ssl', 'tls', 'none'])) {
             update_option(WP_SIMPLE_SMTP_ENCRYPTION, $_POST[WP_SIMPLE_SMTP_ENCRYPTION]);
         } else {
-            echo '<div class="notice notice-error is-dismissible"><p>' . __("Invalid encryption selection", "wp-simple-smtp") . '</p></div>';
+            echo '<div class="notice notice-error is-dismissible"><p>' . __("Invalid encryption selected", "wp-simple-smtp") . '</p></div>';
         }
     }
 
@@ -89,8 +89,8 @@ if (isset($_POST['wp_simple_smtp_save_settings'])) {
                 <select name="<?php echo WP_SIMPLE_SMTP_ENCRYPTION; ?>">
                     <?php
                     echo '<option value="none" ' . selected('none', get_option(WP_SIMPLE_SMTP_ENCRYPTION), false) . '>' . __("No Encryption", "wp-simple-smtp") . '</option>';
-                    echo '<option value="tls" ' . selected('tls', get_option(WP_SIMPLE_SMTP_ENCRYPTION), false) . '>TLS</option>';
-                    echo '<option value="ssl" ' . selected('ssl', get_option(WP_SIMPLE_SMTP_ENCRYPTION), false) . '>SSL</option>';
+                    echo '<option value="tls" ' . selected('tls', get_option(WP_SIMPLE_SMTP_ENCRYPTION), false) . '>' . __("TLS", "wp-simple-smtp") . '</option>';
+                    echo '<option value="ssl" ' . selected('ssl', get_option(WP_SIMPLE_SMTP_ENCRYPTION), false) . '>' . __("SSL", "wp-simple-smtp") . '</option>';
                     ?>
                 </select>
             </td>

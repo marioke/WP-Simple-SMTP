@@ -49,11 +49,11 @@ function wp_simple_smtp_test(string $to): void
 
 ?>
 
-<h3>
-    <?php _e("Test E-Mail", "wp-simple-smtp"); ?>
+<h3> 
+    <?php _e("Test Mail", "wp-simple-smtp"); ?>
 </h3>
 <p>
-    <?php _e("Test deine SMTP Konfiguration durch den Versand einer Test E-Mail", "wp-simple-smtp"); ?>
+    <?php _e("Test your SMTP configuration by sending an test mail", "wp-simple-smtp"); ?>
 </p>
 <form method="post" action="options-general.php?page=wp-simple-smtp">
     <table class="form-table">
